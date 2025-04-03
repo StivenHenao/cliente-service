@@ -202,7 +202,7 @@ public class ClienteRestController {
 			clienteService.save(cliente);
 
 			response.put("cliente", cliente);
-			response.put("mensaje", "Has subido correctamente la imagen: " + nombreArchivo);
+			response.put("mensaje", "Has subido correctamente la siguiente imagen: " + nombreArchivo);
 
 		}
 
